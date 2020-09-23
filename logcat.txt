@@ -1,67 +1,73 @@
-2020-09-23 12:27:50.838 25345-25345/? I/ncini.tabbedvp: Late-enabling -Xcheck:jni
-2020-09-23 12:27:50.949 25345-25358/? I/ncini.tabbedvp: The ClassLoaderContext is a special shared library.
-2020-09-23 12:27:51.384 25345-25345/? D/Embryo: preload com.marconcini.tabbedvp2, 8ms, hwui=true, layout=false, decor=false
-2020-09-23 12:27:51.386 25345-25370/? D/OpenGLRenderer: Skia GL Pipeline
-2020-09-23 12:27:51.635 25345-25345/com.marconcini.tabbedvp2 I/Perf: Connecting to perf service.
-2020-09-23 12:27:51.705 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
-2020-09-23 12:27:51.705 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
-2020-09-23 12:27:51.705 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
-2020-09-23 12:27:51.705 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
-2020-09-23 12:27:51.705 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
-2020-09-23 12:27:51.735 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
-2020-09-23 12:27:51.741 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/view/View;->getAccessibilityDelegate()Landroid/view/View$AccessibilityDelegate; (light greylist, linking)
-2020-09-23 12:27:51.771 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
-2020-09-23 12:27:51.772 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
-2020-09-23 12:27:51.864 25345-25345/com.marconcini.tabbedvp2 W/TabLayout: MODE_SCROLLABLE + GRAVITY_FILL is not supported, GRAVITY_START will be used instead
-2020-09-23 12:27:51.879 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
-2020-09-23 12:27:52.021 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/graphics/Insets;->of(IIII)Landroid/graphics/Insets; (light greylist, linking)
-2020-09-23 12:27:52.064 25345-25370/com.marconcini.tabbedvp2 I/Adreno: QUALCOMM build                   : 4c638fb, I557c585805
+2020-09-23 12:32:28.260 27381-27381/? I/ncini.tabbedvp: Late-enabling -Xcheck:jni
+2020-09-23 12:32:28.315 27381-27395/? I/ncini.tabbedvp: The ClassLoaderContext is a special shared library.
+2020-09-23 12:32:28.323 27381-27381/? W/ActivityThread: Application com.marconcini.tabbedvp2 is waiting for the debugger on port 8100...
+2020-09-23 12:32:28.325 27381-27381/? I/System.out: Sending WAIT chunk
+2020-09-23 12:32:29.326 27381-27381/com.marconcini.tabbedvp2 I/System.out: Debugger has connected
+2020-09-23 12:32:29.327 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:29.527 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:29.727 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:29.928 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:30.128 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:30.329 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:30.530 27381-27381/com.marconcini.tabbedvp2 I/System.out: waiting for debugger to settle...
+2020-09-23 12:32:30.733 27381-27381/com.marconcini.tabbedvp2 I/System.out: debugger has settled (1304)
+2020-09-23 12:32:31.079 27381-27381/com.marconcini.tabbedvp2 I/Perf: Connecting to perf service.
+2020-09-23 12:32:31.299 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+2020-09-23 12:32:31.299 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2020-09-23 12:32:31.299 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2020-09-23 12:32:31.299 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2020-09-23 12:32:31.299 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2020-09-23 12:32:31.408 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2020-09-23 12:32:31.419 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/view/View;->getAccessibilityDelegate()Landroid/view/View$AccessibilityDelegate; (light greylist, linking)
+2020-09-23 12:32:31.470 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2020-09-23 12:32:31.471 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2020-09-23 12:32:31.609 27381-27381/com.marconcini.tabbedvp2 W/TabLayout: MODE_SCROLLABLE + GRAVITY_FILL is not supported, GRAVITY_START will be used instead
+2020-09-23 12:32:31.661 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+2020-09-23 12:32:32.049 27381-27381/com.marconcini.tabbedvp2 D/OpenGLRenderer: Skia GL Pipeline
+2020-09-23 12:32:32.197 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/graphics/Insets;->of(IIII)Landroid/graphics/Insets; (light greylist, linking)
+2020-09-23 12:32:32.424 27381-27417/com.marconcini.tabbedvp2 I/Adreno: QUALCOMM build                   : 4c638fb, I557c585805
     Build Date                       : 10/06/18
     OpenGL ES Shader Compiler Version: EV031.25.03.01
     Local Branch                     : 
     Remote Branch                    : 
     Remote Branch                    : 
     Reconstruct Branch               : 
-2020-09-23 12:27:52.064 25345-25370/com.marconcini.tabbedvp2 I/Adreno: Build Config                     : S L 6.0.7 AArch64
-2020-09-23 12:27:52.073 25345-25370/com.marconcini.tabbedvp2 I/Adreno: PFP: 0x005ff112, ME: 0x005ff066
-2020-09-23 12:27:52.077 25345-25370/com.marconcini.tabbedvp2 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
-2020-09-23 12:27:52.077 25345-25370/com.marconcini.tabbedvp2 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
-2020-09-23 12:27:52.077 25345-25370/com.marconcini.tabbedvp2 I/OpenGLRenderer: Initialized EGL, version 1.4
-2020-09-23 12:27:52.077 25345-25370/com.marconcini.tabbedvp2 D/OpenGLRenderer: Swap behavior 2
-2020-09-23 12:27:52.105 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
-2020-09-23 12:27:52.105 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
-2020-09-23 12:27:52.105 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
-2020-09-23 12:27:52.105 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
-2020-09-23 12:27:52.105 25345-25345/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
-2020-09-23 12:27:52.107 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 0
-2020-09-23 12:27:52.126 25345-25345/com.marconcini.tabbedvp2 D/frg A: onStart()
-2020-09-23 12:27:52.126 25345-25345/com.marconcini.tabbedvp2 D/frg A: onResume()
-2020-09-23 12:28:04.508 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 7
-2020-09-23 12:28:04.583 25345-25345/com.marconcini.tabbedvp2 D/frg H: onStart()
-2020-09-23 12:28:04.652 25345-25345/com.marconcini.tabbedvp2 I/Choreographer: Skipped 226 frames!  The application may be doing too much work on its main thread.
-2020-09-23 12:28:04.652 25345-25370/com.marconcini.tabbedvp2 I/OpenGLRenderer: Davey! duration=3823ms; Flags=0, IntendedVsync=308186083483347, Vsync=308186116816679, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=308186127645230, AnimationStart=308186127803147, PerformTraversalsStart=308186130181324, DrawStart=308189888953458, SyncQueued=308189903489604, SyncStart=308189903746791, IssueDrawCommandsStart=308189903866166, SwapBuffers=308189905863302, FrameCompleted=308189906978354, DequeueBufferDuration=1037000, QueueBufferDuration=736000, 
-2020-09-23 12:28:05.385 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 8
-2020-09-23 12:28:05.460 25345-25345/com.marconcini.tabbedvp2 D/frg I: onStart()
-2020-09-23 12:28:16.748 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 9
-2020-09-23 12:28:16.821 25345-25345/com.marconcini.tabbedvp2 D/frg J: onStart()
-2020-09-23 12:28:16.879 25345-25370/com.marconcini.tabbedvp2 I/OpenGLRenderer: Davey! duration=15999ms; Flags=0, IntendedVsync=308186133598555, Vsync=308189900265071, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=308189906701635, AnimationStart=308189906720333, PerformTraversalsStart=308202121397776, DrawStart=308202122751630, SyncQueued=308202131533297, SyncStart=308202131587568, IssueDrawCommandsStart=308202131685224, SwapBuffers=308202132586318, FrameCompleted=308202133177568, DequeueBufferDuration=200000, QueueBufferDuration=324000, 
-2020-09-23 12:28:16.913 25345-25345/com.marconcini.tabbedvp2 I/Choreographer: Skipped 734 frames!  The application may be doing too much work on its main thread.
-2020-09-23 12:28:16.923 25345-25345/com.marconcini.tabbedvp2 D/frg A: onPause()
-2020-09-23 12:28:16.923 25345-25345/com.marconcini.tabbedvp2 D/frg A: onStop()
-2020-09-23 12:28:18.345 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 10
-2020-09-23 12:28:18.426 25345-25345/com.marconcini.tabbedvp2 D/frg K: onStart()
-2020-09-23 12:28:18.473 25345-25345/com.marconcini.tabbedvp2 D/frg I: onStop()
-2020-09-23 12:28:19.175 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 11
-2020-09-23 12:28:19.249 25345-25345/com.marconcini.tabbedvp2 D/frg L: onStart()
-2020-09-23 12:28:19.288 25345-25345/com.marconcini.tabbedvp2 D/frg H: onStop()
-2020-09-23 12:28:19.745 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 12
-2020-09-23 12:28:19.823 25345-25345/com.marconcini.tabbedvp2 D/frg M: onStart()
-2020-09-23 12:28:19.861 25345-25345/com.marconcini.tabbedvp2 D/frg J: onStop()
-2020-09-23 12:28:21.787 25345-25345/com.marconcini.tabbedvp2 D/frg: createFragment: 13
-2020-09-23 12:28:21.853 25345-25345/com.marconcini.tabbedvp2 D/frg N: onStart()
-2020-09-23 12:28:21.893 25345-25345/com.marconcini.tabbedvp2 D/frg K: onStop()
-2020-09-23 12:28:21.895 25345-25350/com.marconcini.tabbedvp2 I/ncini.tabbedvp: Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
-2020-09-23 12:28:21.902 25345-25345/com.marconcini.tabbedvp2 E/RecyclerView: Passed over target position while smooth scrolling.
-2020-09-23 12:28:21.915 25345-25370/com.marconcini.tabbedvp2 I/OpenGLRenderer: Davey! duration=17246ms; Flags=0, IntendedVsync=308189921859172, Vsync=308202155192016, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=308202167599860, AnimationStart=308202167781162, PerformTraversalsStart=308207160193139, DrawStart=308207161307149, SyncQueued=308207165144962, SyncStart=308207165427462, IssueDrawCommandsStart=308207165568660, SwapBuffers=308207167370274, FrameCompleted=308207169116681, DequeueBufferDuration=598000, QueueBufferDuration=520000, 
-2020-09-23 12:28:21.985 25345-25345/com.marconcini.tabbedvp2 I/Choreographer: Skipped 304 frames!  The application may be doing too much work on its main thread.
-2020-09-23 12:28:21.990 25345-25370/com.marconcini.tabbedvp2 I/OpenGLRenderer: Davey! duration=5071ms; Flags=0, IntendedVsync=308202172617676, Vsync=308207239284140, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=308207240110066, AnimationStart=308207240289858, PerformTraversalsStart=308207240795483, DrawStart=308207241539754, SyncQueued=308207242641212, SyncStart=308207242781264, IssueDrawCommandsStart=308207242848347, SwapBuffers=308207244172410, FrameCompleted=308207244892254, DequeueBufferDuration=659000, QueueBufferDuration=440000, 
+2020-09-23 12:32:32.424 27381-27417/com.marconcini.tabbedvp2 I/Adreno: Build Config                     : S L 6.0.7 AArch64
+2020-09-23 12:32:32.428 27381-27417/com.marconcini.tabbedvp2 I/Adreno: PFP: 0x005ff112, ME: 0x005ff066
+2020-09-23 12:32:32.436 27381-27417/com.marconcini.tabbedvp2 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2020-09-23 12:32:32.436 27381-27417/com.marconcini.tabbedvp2 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2020-09-23 12:32:32.437 27381-27417/com.marconcini.tabbedvp2 I/OpenGLRenderer: Initialized EGL, version 1.4
+2020-09-23 12:32:32.437 27381-27417/com.marconcini.tabbedvp2 D/OpenGLRenderer: Swap behavior 2
+2020-09-23 12:32:32.625 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2020-09-23 12:32:32.625 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2020-09-23 12:32:32.625 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2020-09-23 12:32:32.625 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2020-09-23 12:32:32.625 27381-27381/com.marconcini.tabbedvp2 W/ncini.tabbedvp: Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2020-09-23 12:32:37.608 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 0
+2020-09-23 12:32:37.701 27381-27381/com.marconcini.tabbedvp2 D/frg A: onStart()
+2020-09-23 12:32:37.705 27381-27381/com.marconcini.tabbedvp2 D/frg A: onResume()
+2020-09-23 12:32:37.816 27381-27381/com.marconcini.tabbedvp2 I/Choreographer: Skipped 338 frames!  The application may be doing too much work on its main thread.
+2020-09-23 12:32:42.930 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 7
+2020-09-23 12:32:43.018 27381-27381/com.marconcini.tabbedvp2 D/frg H: onStart()
+2020-09-23 12:32:43.100 27381-27381/com.marconcini.tabbedvp2 I/Choreographer: Skipped 100 frames!  The application may be doing too much work on its main thread.
+2020-09-23 12:32:44.064 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 8
+2020-09-23 12:32:44.153 27381-27381/com.marconcini.tabbedvp2 D/frg I: onStart()
+2020-09-23 12:32:45.167 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 9
+2020-09-23 12:32:45.253 27381-27381/com.marconcini.tabbedvp2 D/frg J: onStart()
+2020-09-23 12:32:45.340 27381-27381/com.marconcini.tabbedvp2 I/Choreographer: Skipped 133 frames!  The application may be doing too much work on its main thread.
+2020-09-23 12:32:45.351 27381-27381/com.marconcini.tabbedvp2 D/frg A: onPause()
+2020-09-23 12:32:45.353 27381-27381/com.marconcini.tabbedvp2 D/frg A: onStop()
+2020-09-23 12:32:46.418 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 10
+2020-09-23 12:32:46.509 27381-27381/com.marconcini.tabbedvp2 D/frg K: onStart()
+2020-09-23 12:32:46.546 27381-27381/com.marconcini.tabbedvp2 D/frg I: onStop()
+2020-09-23 12:32:47.473 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 11
+2020-09-23 12:32:47.560 27381-27381/com.marconcini.tabbedvp2 D/frg L: onStart()
+2020-09-23 12:32:47.604 27381-27381/com.marconcini.tabbedvp2 D/frg H: onStop()
+2020-09-23 12:32:48.519 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 12
+2020-09-23 12:32:48.592 27381-27381/com.marconcini.tabbedvp2 D/frg M: onStart()
+2020-09-23 12:32:48.628 27381-27381/com.marconcini.tabbedvp2 D/frg J: onStop()
+2020-09-23 12:32:49.758 27381-27381/com.marconcini.tabbedvp2 D/frg: createFragment: 13
+2020-09-23 12:32:49.840 27381-27381/com.marconcini.tabbedvp2 D/frg N: onStart()
+2020-09-23 12:32:49.882 27381-27381/com.marconcini.tabbedvp2 D/frg K: onStop()
+2020-09-23 12:32:49.899 27381-27381/com.marconcini.tabbedvp2 E/RecyclerView: Passed over target position while smooth scrolling.
+2020-09-23 12:32:49.925 27381-27381/com.marconcini.tabbedvp2 I/Choreographer: Skipped 274 frames!  The application may be doing too much work on its main thread.
